@@ -80,7 +80,7 @@ export default function Dashboard() {
       {/* MOBILE TOP BAR */}
       <div className="flex items-center justify-between p-4 sm:hidden">
         <NavLink to="/" className="text-xl font-bold text-black">
-          Shotlin
+          EioStore
         </NavLink>
         <button
           className="text-black"
@@ -124,7 +124,7 @@ export default function Dashboard() {
             <div className="relative flex items-center h-10">
               {/* 'S' in the horizontal center */}
               <NavLink to="/" className="text-2xl font-bold text-black mx-auto">
-                S
+                E
               </NavLink>
               {/* Toggle arrow at the far right, vertically centered */}
               <button
@@ -136,10 +136,10 @@ export default function Dashboard() {
               </button>
             </div>
           ) : (
-            // Expanded state: 'SHOTLIN' left, arrow on the right
+            // Expanded state: 'EioStore' left, arrow on the right
             <div className="flex justify-between items-center h-10">
               <NavLink to="/" className="text-2xl font-bold text-black">
-                SHOTLIN
+                EioStore
               </NavLink>
               <button
                 onClick={() => setSidebarCollapsed(true)}
@@ -155,7 +155,7 @@ export default function Dashboard() {
         {/* MOBILE CLOSE BUTTON */}
         <div className="flex justify-between items-center sm:hidden mb-4 px-2">
           <NavLink to="/" className="text-2xl font-bold text-black">
-            Shotlin
+            EioStore
           </NavLink>
           <button onClick={() => setSidebarOpen(false)} aria-label="Close sidebar">
             <X size={36} className="text-black" />
