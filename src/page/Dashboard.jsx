@@ -15,6 +15,7 @@ import {
   ChevronLeft,
   ChevronRight,
   CalendarCheck,
+  ScanBarcode 
 } from "lucide-react";
 
 // Single menu item, showing icon + optional label
@@ -46,16 +47,11 @@ export default function Dashboard() {
   const navItems = useMemo(
     () => [
       { icon: <ChartPie size={24} />, label: "Overview", to: "/" },
-      { icon: <Video size={24} />, label: "Meeting", to: "/dashboard/meeting" },
-      { icon: <BookUser size={24} />, label: "Customers", to: "/dashboard/customerslist" },
-      { icon: <PackageSearch size={24} />, label: "Services", to: "/dashboard/serviceslist" },
-      { icon: <PackagePlus size={24} />, label: "Services Upload", to: "/dashboard/servicesupload" },
-      { icon: <Contact size={24} />, label: "contactrequests", to: "/dashboard/contactrequests" }, 
-      { icon: <PencilRuler size={24} />,label: "WebContent Edit",to: "/dashboard/webcontentedit",},
-      { icon: <CalendarCheck size={24} />, label: "Quotation Manager", to: "/dashboard/quotationmanager" },
-      { icon: <CirclePercent size={24} />, label: "Financial Calculator", to: "/dashboard/financialcalculator" },
-      
+      { icon: <BookUser size={24} />, label: "ItemsShow", to: "/dashboard/itemsshow" },
+      { icon: <ScanBarcode  size={24} />, label: "barcode-scanner", to: "/dashboard/barcode-scanner" },
+      { icon: <PackagePlus size={24} />, label: "purchase-order-create", to: "/dashboard/purchase-order-create" },
 
+    
     ],
     []
   );

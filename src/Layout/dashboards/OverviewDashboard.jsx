@@ -69,7 +69,7 @@ const recentOrdersData = [
 // Project data
 const projectsData = [
   { 
-    name: "ERP System Implementation", 
+    name: "System Implementation", 
     progress: 75, 
     status: "On Track", 
     deadline: "2025-08-15",

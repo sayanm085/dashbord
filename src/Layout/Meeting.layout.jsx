@@ -15,7 +15,6 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 // You can use lucide-react icons or any icon library
 import { VideoIcon, VideoOffIcon, MoreHorizontal } from "lucide-react";
-
 /**
  * Main component replicating the meeting page layout.
  */
