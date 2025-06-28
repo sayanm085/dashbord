@@ -19,6 +19,7 @@ import MeetingPage from './Layout/Meeting.layout.jsx'
 import ItemsShowLayout from './Layout/ItemsShow.layout.jsx'
 import BarcodeScanner from './Layout/BarcodeScanner.jsx'
 import PurchaseOrderCreate from './Layout/PurchaseOrderCreate.jsx'
+import SalesLayout from './Layout/SalesLayout.jsx'
 
 
 import LoginPage from './page/Login.jsx'
@@ -61,6 +62,7 @@ const router = createBrowserRouter(
           <Route path="itemsshow" element={<ItemsShowLayout />} />
           <Route path="barcode-scanner" element={<BarcodeScanner />} />
           <Route path="purchase-order-create" element={<PurchaseOrderCreate />} />
+          <Route path="sales" element={<SalesLayout />} />
           {/* Redirect any unmatched routes to dashboard */}
 
           <Route path="*" element={<Navigate to="/dashboard" replace />} />

@@ -15,7 +15,8 @@ import {
   ChevronLeft,
   ChevronRight,
   CalendarCheck,
-  ScanBarcode 
+  ScanBarcode ,
+  ShoppingBasket 
 } from "lucide-react";
 
 // Single menu item, showing icon + optional label
@@ -50,6 +51,8 @@ export default function Dashboard() {
       { icon: <BookUser size={24} />, label: "ItemsShow", to: "/dashboard/itemsshow" },
       { icon: <ScanBarcode  size={24} />, label: "barcode-scanner", to: "/dashboard/barcode-scanner" },
       { icon: <PackagePlus size={24} />, label: "purchase-order-create", to: "/dashboard/purchase-order-create" },
+      { icon: <ShoppingBasket  size={24} />, label: "sales", to: "/dashboard/sales" },
+  
 
     
     ],
